@@ -19,11 +19,11 @@ pip install -r requirements.txt
 1. Run the scraper
    - Scrape from the root of the gitbook
        ```shell
-       python scraper.py 'https://my-gitbook.com'
+       python scraper.py "https://my-gitbook.com"
        ```
    - Scrape from a specific section
        ```shell
-       python scraper.py 'https://my-gitbook.com/section'
+       python scraper.py "https://my-gitbook.com/section"
        ```
 2. View the output
     - The scraped webpages will be saved to the `output` directory.
