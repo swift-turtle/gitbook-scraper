@@ -1,5 +1,8 @@
 # gitbook-scraper
-A Basic Gitbook Scraper
+A Gitbook Web Crawler & Scraper
+
+# Goal
+Automates the process of crawling a gitbook and scraping all the webpages.
 
 # Pre-requisites
 1. Install [Python](https://www.python.org/downloads/)
@@ -13,6 +16,15 @@ pip install -r requirements.txt
 ```
 
 # Usage
-```shell
-python scraper.py 'https://my-gitbook.com'
-```
+1. Run the scraper
+   - Scrape from the root of the gitbook
+       ```shell
+       python scraper.py 'https://my-gitbook.com'
+       ```
+   - Scrape from a specific section
+       ```shell
+       python scraper.py 'https://my-gitbook.com/section'
+       ```
+2. View the output
+    - The scraped webpages will be saved to the `output` directory.
+

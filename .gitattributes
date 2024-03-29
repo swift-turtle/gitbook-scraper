@@ -1,0 +1,4 @@
+# All committed files are normalized using LF line endings. Ensures re-conversion when using autocrlf=true.
+*           text=auto
+# All files below have the specified line endings when in the working tree. Prevents conversion when using autocrlf=true.
+*.sh        text eol=lf
