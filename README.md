@@ -12,5 +12,5 @@ pip install -r requirements.txt
 
 # Usage
 ```shell
-python script.py 'https://www.gitbook.com/book/username/bookname'
+python scraper.py 'https://my-gitbook.com'
 ```
