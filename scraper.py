@@ -30,6 +30,7 @@ def scrape_page(base_url: str, url: str, scraped_urls: Set[str]):
 
         for href in set(href for nl in soup.find_all('a') if (href := nl.get('href')) and href.startswith('/')):
             url = urljoin(base_url, href)
+
             if url not in scraped_urls:
                 scraped_urls.add(url)
                 print(f'Scraping {url}')
